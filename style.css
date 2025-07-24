@@ -1101,3 +1101,29 @@ body{
     margin-bottom: 40px;
 }
 
+/* === Skill icons styling === */
+.skills-icons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+.skills-icons i {
+    font-size: 38px; /* bigger icon */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.skills-icons i:hover {
+    transform: translateY(-4px) scale(1.15) rotate(5deg);
+    filter: drop-shadow(0 4px 10px rgba(0, 171, 240, 0.4));
+}
+/* Brand colors */
+.skills-icons .bxl-html5 { color: #E44D26; }
+.skills-icons .bxl-css3 { color: #264DE4; }
+.skills-icons .bxl-javascript { color: #F7DF1E; }
+.skills-icons .bxl-react { color: #61DAFB; }
+.skills-icons .bxl-tailwind-css { color: #38BDF8; }
+.skills-icons .bxl-bootstrap { color: #7952B3; }
+.skills-icons .bxl-git { color: #F05032; }
+.skills-icons .bxl-github { color: #b5aeae; }
+.skills-icons .bxl-figma { color: #c9c2c0; }
+
