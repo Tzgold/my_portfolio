@@ -65,7 +65,11 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
     background: url('lufy.png');
+=======
+    background: url('./lufy.png');
+>>>>>>> 92d9f1efcd1a1d49aee9fcd494fb1630e93cde66
     background-size: cover;
     background-position: center 30%;
     background-repeat: no-repeat;
@@ -799,6 +803,45 @@ body{
     transform: translateY(-15px);
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 1200px) {
+    .service-item,
+    .portfolio-item {
+        width: 280px;
+        flex: 1 1 280px;
+        max-width: 300px;
+    }
+    
+    .portfolio-img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-container,
+    .portfolio-container {
+        gap: 20px;
+    }
+    
+    .service-item,
+    .portfolio-item {
+        width: 100%;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    
+    .portfolio-img {
+        height: 200px;
+    }
+    
+    .service-item,
+    .portfolio-item {
+        padding: 25px;
+    }
+}
+
+>>>>>>> 92d9f1efcd1a1d49aee9fcd494fb1630e93cde66
 .contact {
     min-height: 100vh;
     background: #081b29;
